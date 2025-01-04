@@ -1,10 +1,10 @@
 <h1 align="center" style="font-weight: bold;">Projeto Xbox 💻</h1>
 
 <p align="center">
- <a href="#technologies">Technologies</a> • 
- <a href="#started">Getting Started</a> • 
-  <a href="#colab">Collaborators</a> •
- <a href="#contribute">Contribute</a>
+ <a href="#tech">Technologias</a> • 
+ <a href="#started">Começando</a> • 
+  <a href="#pre">Pré-requisitos</a> •
+ <a href="#clone">Clonagem</a>
 </p>
 
 <p align="center">
@@ -21,7 +21,7 @@
     <img src="./public/image/preview.png" alt="Image Example" width="400px">
 </p>
 
-<h2 id="technologies">💻 Technologias</h2>
+<h2 id="tech">💻 Technologias</h2>
 
 - Next.js
 - Tailwind CSS
@@ -35,7 +35,7 @@ Execute esse codigo no terminal para começar esse projeto
 npm run dev
 ```
 
-<h3>Pré-requisitos</h3>
+<h3 id="pre">Pré-requisitos</h3>
 
 Pré-requisitos ter o nodejs e o git instalados em sua maquina 
 
@@ -43,7 +43,7 @@ Pré-requisitos ter o nodejs e o git instalados em sua maquina
 - [Git](https://git-scm.com/downloads)
 
 
-<h3>Clonagem</h3>
+<h3 id="clone">Clonagem</h3>
 
 Como clonar meu projeto execute esse codigo no terminal
 
