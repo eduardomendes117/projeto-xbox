@@ -93,7 +93,7 @@ export default function Home() {
           />
         </section>
 
-        <section className="flex justify-center flex-wrap gap-6 lg:gap-0 px-4 my-20 max-w-full">
+        <section className="flex justify-center flex-wrap gap-6 lg:gap-0 my-20 max-w-full">
   <Image
     width={480}
     height={800}
