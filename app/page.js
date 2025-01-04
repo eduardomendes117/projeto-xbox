@@ -26,7 +26,7 @@ export default function Home() {
 
   return (
     <div className="inset-0 bg-gradient-to-t from-[#0D100C] to-[#0D100C]">
-      <header className="max-w-screen-xl w-full p-6 mx-auto flex flex-col md:flex-row gap-5 md:gap-0 md:justify-between items-center text-sm font-medium">
+      <header className="max-w-screen-xl w-full p-6 mx-auto flex flex-col md:flex-row gap-5 md:gap-0 md:justify-between items-center text-xs sm:text-sm font-medium">
         <div className="flex flex-col md:flex-row items-center gap-5 lg:gap-16">
           <Image
             width={112}
@@ -55,8 +55,8 @@ export default function Home() {
       </header>
 
       <main>
-        <section className="relative flex flex-col items-center justify-center gap-5 font-bold p-20 ">
-          <h1 className="relative z-20 text-5xl">Xbox series X</h1>
+        <section className="relative flex flex-col items-center justify-center gap-5 font-bold p-5 md:p-20 ">
+          <h1 className="relative z-20 text-3xl lg:text-5xl">Xbox series X</h1>
           <h2 className="relative z-20 text-[#9bf00b]">PEDIDO ANTECIPADO</h2>
           <div className="relative w-full h-[calc(100vw*0.61)] max-w-[1224px]">
             <Image
@@ -72,9 +72,9 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="max-w-screen-xl mx-auto flex flex-wrap gap-10 justify-around items-center p-8">
+        <section className="max-w-screen-xl mx-auto flex flex-wrap gap-10 justify-around items-center p-5 sm:p-8">
           <div className="flex flex-col gap-5 w-96">
-            <h2 className="text-[#9bf00b] text-5xl font-medium">
+            <h2 className="text-[#9bf00b] text-3xl lg:text-5xl font-medium">
               Desempenho <br />
               <span className="text-white">aperfeiçoado</span>
             </h2>
@@ -93,40 +93,41 @@ export default function Home() {
           />
         </section>
 
-        <section className="flex justify-center flex-wrap lg:flex-nowrap my-20 gap-10 md:gap-0 p-8 md:p-0">
-          <Image
-            width={480}
-            height={800}
-            className="w-full sm:w-80 md:w-96 lg:w-80 xl:w-96"
-            src="/image/1.png"
-            alt="Imagem 1"
-          />
-          <Image
-            width={480}
-            height={800}
-            className="w-full sm:w-80 md:w-96 lg:w-80 xl:w-96"
-            src="/image/2.png"
-            alt="Imagem 2"
-          />
-          <Image
-            width={480}
-            height={800}
-            className="w-full sm:w-80 md:w-96 lg:w-80 xl:w-96"
-            src="/image/3.png"
-            alt="Imagem 3"
-          />
-          <Image
-            width={480}
-            height={800}
-            className="w-full sm:w-80 md:w-96 lg:w-80 xl:w-96"
-            src="/image/4.png"
-            alt="Imagem 4"
-          />
-        </section>
+        <section className="flex justify-center flex-wrap gap-6 lg:gap-0 px-4 my-20 max-w-full">
+  <Image
+    width={480}
+    height={800}
+    className="w-full sm:w-72 md:w-80 lg:w-72 xl:w-80 object-contain"
+    src="/image/1.png"
+    alt="Imagem 1"
+  />
+  <Image
+    width={480}
+    height={800}
+    className="w-full sm:w-72 md:w-80 lg:w-72 xl:w-80 object-contain"
+    src="/image/2.png"
+    alt="Imagem 2"
+  />
+  <Image
+    width={480}
+    height={800}
+    className="w-full sm:w-72 md:w-80 lg:w-72 xl:w-80 object-contain"
+    src="/image/3.png"
+    alt="Imagem 3"
+  />
+  <Image
+    width={480}
+    height={800}
+    className="w-full sm:w-72 md:w-80 lg:w-72 xl:w-80 object-contain"
+    src="/image/4.png"
+    alt="Imagem 4"
+  />
+</section>
+
       </main>
 
       <footer className="max-w-screen-xl mx-auto flex flex-col gap-10 justify-around px-8">
-        <h2 className="text-[#9bf00b] text-5xl font-medium">
+        <h2 className="text-[#9bf00b] text-2xl lg:text-5xl font-medium">
           Perguntas <span className="text-white">frequentes</span>
         </h2>
 
